@@ -1,0 +1,118 @@
+html {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF}
+
+  #wrapper { width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0c5442;
+    min-width: 900px;
+    max-width: 1000px;
+    box-shadow: 4px 4px 4px #133926;
+    background-image: linear-gradient(to bottom, #FFFFFF, #0C5442);
+    border: 1.5px solid #003300;
+  }
+
+  header { background-color: #00B386;
+    color: #FFFFFF;
+    text-align: center;
+    height: 175px;
+    padding-top: 30px;
+    padding-left: 3em;}
+
+
+  h1 {margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.25em;
+    font-size: 3em;
+
+  }
+
+  nav {font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+    float: left;
+    width: 160px;
+  }
+
+  nav a {
+    text-decoration: none;
+    transition: color 3s ease-out;
+  }
+  nav a:link { color: #003300; }
+  nav a:visited { color: #7A7A52; }
+  nav a:hover { color: #FFFFFF; }
+  nav ul {  list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+  }
+
+
+  main { background-color: #FFFFFF;
+    padding: 1px 20px 20px 30px;
+    margin-left: 190px;
+    display: block;
+  }
+
+
+  h2 { color: #00664D;
+    font-family: Georgia, "Times New Roman", serif;}
+
+  h3 { color: #000033;
+    font-family: Georgia, "Times New Roman", serif;}
+
+
+
+  dt { color: #00664D; }
+
+  .barn {color: #5C7FA3;
+    font-weight: bold;}  
+
+  main ul { list-style-image: url(marker.gif);}
+
+  #contact { font-size: 90%; }
+
+
+  footer { font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+    clear: both;
+  }
+  
+  
+  
+  
+  height: 100%;
+  width: 100%; 
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #799b1c;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  
+}
